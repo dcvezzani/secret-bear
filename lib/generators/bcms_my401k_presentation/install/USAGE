@@ -1,0 +1,3 @@
+Installs bcms_my401k_presentation into a project. Typically invoked indirectly via:
+
+   rails generate cms:install bcms_my401k_presentation
