@@ -1,4 +1,4 @@
-module ErrorMessagesHelper
+module BcmsMy401kPresentation::ErrorMessagesHelper
   # Render error messages for the given objects. The :message and :header_message options are allowed.
   def error_messages_for(*objects)
     options = objects.extract_options!
@@ -20,4 +20,4 @@ module ErrorMessagesHelper
   end
 end
 
-ActionView::Helpers::FormBuilder.send(:include, ErrorMessagesHelper::FormBuilderAdditions)
+ActionView::Helpers::FormBuilder.send(:include, BcmsMy401kPresentation::ErrorMessagesHelper::FormBuilderAdditions)
