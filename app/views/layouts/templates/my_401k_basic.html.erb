@@ -51,10 +51,23 @@
         <div class="top-bar"></div>
         <div class="log-out-profile-button">
           <ul class="menu">
-            <li class="first"><a rel="nofollow" data-method="delete" href="/users/sign_out">Log-out</a></li>
-            <li><a href="javascript:void(0);">Profile</a></li>
+
+            <li class="first">
+              <% if logged_in? %>
+              <%= link_to "Logout", cms.logout_path %>
+              <% else %>
+              <%= link_to "Login", cms.content_library_path %>
+              <% end %>
+            </li>
+
+            <% if logged_in? %>
+              <li>
+                <%= link_to "Profile", cms.edit_user_path(current_user) %>
+              </li>
+            <% end %>
           </ul>
-          <div class="who-am-i">Welcome, <span class="user-id">dcvezzani@gmail.com</span></div>
+
+          <div class="who-am-i">Welcome, <span class="user-id"><%= current_user.login %></span></div>
         </div>
       </div>
       <div id="body">
@@ -68,7 +81,7 @@
             <div class="logo-graphic sponsor"></div>
           </div>
 
-          <div id="left-side-menu">
+          <div id="left-side-menu" style="position: relative; top: -2em; ">
             <%= container :side_menu %>
           </div> <!-- #left-side-menu -->
 
