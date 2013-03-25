@@ -42,3 +42,5 @@ db-introspection-report*.txt
 dcv-resources
 *.zip
 /bcms_*
+*.old
+*.tar
