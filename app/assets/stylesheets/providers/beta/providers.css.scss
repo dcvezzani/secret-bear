@@ -1,0 +1,20 @@
+// Place all the styles related to the Beta::Providers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* price list table */
+
+.xopacity{
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/* corporate contacts */
+#corporate-contacts .contact h3{
+  font-size: 14pt;
+}
+
+#corporate-contacts, 
+#corporate-contacts ul{
+  list-style: none; 
+}

@@ -1,0 +1,105 @@
+// Place all the styles related to the My401k::ManageProfile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* _______________RED SIDE MENU FORMATTING________*/
+
+.redSideButton {
+  position: relative;
+}
+
+.redButtonText {
+  position: absolute;
+  top:12px;
+  left: 15px;
+  color: #FFF;
+  text-shadow: black 2px 2px 4px;
+}
+
+
+/* _____________ GRAY BAR FORMATTING ____________*/
+
+.grayDividerBar {
+  position: relative;
+  clear: both;
+}
+
+.grayBarText {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+}
+
+.grayBarSearch {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
+.leftMargin {
+  margin-left: 25px;
+}
+
+.reducedWidth {
+  width: 96%;
+  margin: 10px auto 0 auto;
+}
+
+.reducedWidthBox {
+  width: 96%;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+/* ________________SECTION BOX FORMATTING _____________*/
+
+.sectionBox {
+  border: 1px solid black;
+}
+
+.tlb {
+  background-color: white;
+  position: relative;
+  top: -10px;
+  left: 15px;
+  display: inline-block;
+}
+
+.boxedText {
+  width: 420px;
+}
+
+/* ________________Admin Delegates CSS__________________ */
+
+.addContentButton {
+  margin: 10px 0 ;
+}
+
+/* ________________Portal Branding CSS________________ */
+
+.clearfix {
+  clear:both;
+}
+
+.grayBarTopMargin {
+  margin-top: 25px;
+}
+
+/* _______________Participant Access Control CSS__________ */
+
+.boxWithPadding {
+  padding: 0 17px 17px 17px;
+}
+
+.top {
+  padding-top: 17px;
+}
+
+/*_______________Subscription Status CSS_______________*/
+
+.centered {
+  margin: 0 auto;
+  
+}

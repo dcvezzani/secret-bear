@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	line-height: 1.2;
+}
+ul, ol, dl, p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 1em;
+	margin-bottom: 1em;		/* provide consistent vertical margins */
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 240%;
+	margin-top: 0.417em;		
+	margin-bottom: 0.417em;	/* The EM unit is based on an element's font size. H1 is 240% of normal font
+							   size so 1em h1 margins would be 2.4em's worth of the base font size. to keep
+							   consistent margin values divide 1 by the size of the font (1 / 2.4 = 0.417)
+							   and you have the EM value that will give you about 1em of the base font size. */
+}
+h2 {
+	font-size: 180%;
+	margin-top: 0.556em;
+	margin-bottom: 0.556em;
+}
+h3 {
+	font-size: 140%;
+	margin-top: 0.714em;
+	margin-bottom: 0.714em;
+}
+h4 {
+	font-size: 100%;
+}
+h5{
+	font-size: 70%;
+	margin-top: 1.429em;
+	margin-bottom: 1.429em;
+}
+h6 {
+	font-size: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+a, a:link, a:visited, a:active {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;	/* provide extra, visual feedback that a link is clickable */
+}
+code, pre {
+	font-family: "Courier New", Courier, monospace;	/* use same monospaced font for CODE and PRE elements */
+}
+label {
+	cursor: pointer;	/* Visual feedback that label elements are clickable. */
+}
+big {
+	font-size: 120%;
+}
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+small {
+	font-size: 80%;
+}
+pre, code, tt {
+	font-family: "Courier New", Courier, monospace;
+}
+strike {
+	text-decoration: line-through;
+}
+blockquote {
+	margin: 1em;
+}
+sup, sub {
+	line-height: 1;
+	font-size: 80%;
+	vertical-align: top;
+}
+sub {
+	vertical-align: bottom;
+}
+ul {
+	list-style: disc;
+	margin-left: 2em;
+}
+ol {
+	list-style: decimal;
+	margin-left: 2em;
+}

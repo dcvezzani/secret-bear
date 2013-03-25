@@ -1,0 +1,47 @@
+// Place all the styles related to the My401k::ManageContent controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.margin2 {
+  margin-left: 11px;
+}
+
+.margin3 {
+  margin-left: 13px;
+}
+
+.editBanner {
+  clear: both;
+  position: relative;
+}
+
+.editableBanner {
+  width: 660px;
+  height: 280px;
+  background-color: black;
+}
+
+.add {
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+}
+
+.remove {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.oneTile {
+  float: left;
+  /* margin-top: 10px; */
+}
+
+.theTile {
+  height: 155px;
+  width: 155px;
+  background-color: #AAA;
+}
+

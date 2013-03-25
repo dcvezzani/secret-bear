@@ -1,0 +1,21 @@
+.wizard-bar li{
+  cursor: pointer;
+}
+
+ul.wizard-bar li{
+  background: url("/assets/stub/wizard-progress-item.png") repeat scroll 0 0 transparent; 
+  width: 123px;
+  height: 30px;
+  text-align: center; 
+}
+
+ul.wizard-bar li a{
+  color: white; 
+  text-decoration: none; 
+  position: relative;
+  top: 7px;
+}
+ul.wizard-bar li a:hover{
+  text-decoration: none; 
+}
+

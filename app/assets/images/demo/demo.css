@@ -1,0 +1,126 @@
+#canvas{
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 460px;
+    position: relative; 
+    width:1024px; height:780px;
+    height: auto; 
+}
+
+#header, #header-body, #header-navigation, #border-login-profile, #mid-section, #body, #footer, 
+#content, #carousel, #banner{
+  width: 100%; 
+  float: left; 
+}
+
+#header{
+  height: 20px;
+}
+
+
+#border-login-profile{
+  height: 20px;
+  position: absolute; 
+  top: 0;
+}
+
+#mid-section{
+  height: 200px;
+  height: auto; 
+  position: relative; 
+  width:756px; height:601px; top:108px; right:-0.25px; bottom:2px; left:0px; position:absolute; z-index:auto;
+}
+
+#footer{
+  height: 100px;
+  height:35px;
+}
+
+#left{
+  width: 25%;
+  float: left;
+  width:221px; height:620px; top:7px; right:780px; bottom:86px; left:22px; position:absolute; z-index:auto;
+}
+
+#center-right{
+  float: right;
+  width: 74%; 
+  height: 713px;
+}
+
+#details{
+  width: 200px;
+  height: 400px;
+}
+
+#logo, #communications{
+  width: 100%;
+  height: auto; 
+  float: left; 
+}
+
+#communications img{
+  float: left; 
+}
+
+#center-right, #body{
+  position: relative; 
+}
+
+#header-body{
+  width:757px; height:103px; top:2px; right:-0.5px; bottom:606px; left:0px; position:absolute; z-index:auto;
+}
+
+#header-navigation{
+    border: 1px solid pink;
+    border: 0;
+    width:755px; height:60px; top:33px; right:0px; bottom:8px; left:0px; position:absolute; z-index:auto;
+    width:688px; height:60px; top:34px; right:47px; bottom:7px; left:0px; position:absolute; z-index:auto;
+}
+
+#header-instructions{
+  width:332px; height:23px; top:2px; right:-12px; bottom:-2px; left:0; position:relative; z-index:auto;
+}
+
+#carousel{
+width:756px; height:227px; top:0px; right:14px; bottom:0px; left:-14px; position:relative; z-index:auto;
+}
+
+#xcontent{
+  height: 250px;
+  overflow: auto;
+}
+
+#logo img, #communications img, 
+#content img, #carousel img, #banner img{
+padding-bottom: 1em;
+}
+
+#content, #carousel, #banner{
+    border: 1px solid green;
+}
+
+#header-navigation{
+    border: 1px solid pink;
+}
+
+#header, #body, #footer{
+    border: 1px solid red;
+}
+
+#left, #center-right{
+    border: 1px solid blue;
+}
+
+#header-body, #mid-section{
+    border: 1px solid orange;
+}
+
+#header-navigation, #header, #body, #footer, #left, #center-right, #header-body, #mid-section, 
+#content, #carousel, #banner{
+}
+
+
+

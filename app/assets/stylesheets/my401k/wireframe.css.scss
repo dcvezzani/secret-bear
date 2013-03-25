@@ -1,0 +1,48 @@
+.gray-bar{
+  width: 661px;
+  height: 45px;
+}
+.gray-bar-label{
+  background: url('/assets/wf/gray-bar-label.png') no-repeat white;
+}
+.gray-bar-label-filter{
+  background: url('/assets/wf/gray-bar-label-filter.png') no-repeat white;
+}
+.gray-bar-label-search-filter{
+  background: url('/assets/wf/gray-bar-label-search-filter.png') no-repeat white;
+}
+.gray-bar-jump-to-section{
+  background: url('/assets/wf/gray-bar-jump-to-section.png') no-repeat white;
+}
+
+
+.gray-bar h3{
+  margin: 0;
+  padding: 0;
+  font-size: 10pt;
+  position: relative;
+  left: 15px;
+  top: 2px;
+}
+
+.manage-content-top-actions{
+  background: url('/assets/wf/manage-content-top-actions.png') white;
+  width: 661px;
+  height: 34px;
+}
+
+/* show a pointer when hovering over popup */
+.popup{
+  cursor: pointer;
+}
+
+/* rubber-band box used to determine a hotspot region */
+.ruler{
+  border: 1px dashed orange;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+}
+

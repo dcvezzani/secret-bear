@@ -1,0 +1,53 @@
+.bar-info{
+  position: relative; 
+  width: 136px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.xbar-info .bar-items{
+  height: 23px;
+  position: relative; 
+}
+.bar-info .bar-items {
+  height: 23px;
+  position: relative;
+  right: 0;
+  top: -3px;
+  top: 0;
+}
+
+.bar-info .bar-item{
+  position: absolute;
+}
+
+.bar-info .bar-item p{
+  left: 8px;
+  margin: 0;
+  position: absolute;
+  top: 2px;
+  top: 3px;
+}
+
+.bar-item.tile-gray-bar p{
+  left: 12px;
+  top: 2px;
+  top: 3px;
+  color: white;
+}
+
+.bar-item.tile-white-bar p{
+  left: 8px;
+  top: 2px;
+  top: 3px;
+}
+
+.bar-item.label{
+  left: 0;
+}
+
+.bar-item.value{
+  right: 0;
+  z-index: 10;
+}
+

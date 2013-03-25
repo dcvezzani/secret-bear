@@ -1,0 +1,23 @@
+.demo-table{
+  width: 100%;
+}
+
+.demo-table tbody tr.alt{
+  background-color: silver;
+}
+
+.demo-table thead tr{
+  background-color: #959595;
+}
+.demo-table thead tr td{
+  padding: .5em 0;
+}
+
+.demo-table thead tr td {
+  color: white;
+  font-size: 10pt;
+  font-weight: bold;
+  height: 30px;
+  padding-left: 5px;
+}
+

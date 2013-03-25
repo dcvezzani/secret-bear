@@ -1,0 +1,78 @@
+.xbottom-bar {
+  background: url("/assets/My401KMadeEasy/grey-bar-bottom.png") no-repeat scroll left top transparent;
+  float: left;
+  height: 49px;
+  left: -81px;
+  position: relative;
+  top: -52px;
+  width: 1170px;
+  z-index: -10;
+  margin-bottom: -50px;
+}
+
+.bottom-bar {
+  background: url("/assets/My401KMadeEasy/grey-bar-bottom.png") no-repeat scroll left top transparent;
+  height: 49px;
+  width: 1170px;
+  width: 1024px;
+  z-index: -10;
+  position: relative;
+  left: -81px;
+  left: 0;
+}
+
+#footer{
+  position: relative; 
+  height:49px;
+}
+#footer a{
+  text-decoration: none; 
+  color: black;
+}
+#footer a:hover{
+  text-decoration: underline;
+}
+#footer a, 
+#footer{
+  font-size: 8pt;
+}
+
+#footer ul{
+  list-style: none;
+  position: absolute;
+  right: 25em;
+  right: 20em;
+  top: 10px;
+  padding: 0;
+  margin: 0;
+}
+#footer ul li{
+  display: inline-block;
+  padding: 0 1em;
+  border-left: 1px solid;
+}
+#footer ul li.first{
+  border-left: 0;
+  padding-left: 0;
+}
+
+#footer div.powered-by {
+  position: absolute;
+  right: 2em;
+  top: 13px;
+}
+
+.social-media {
+  left: 6em;
+  position: absolute;
+  top: 8px;
+}
+
+.icon-social-media{
+  float: left; 
+  margin-left: .5em;
+}
+.icon-social-media.first{
+  margin-left: 0;
+}
+

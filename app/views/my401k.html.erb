@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <title>My 401k Made Easy | <%= content_for?(:title) ? yield(:title) : "" %></title>
+
+    <style>
+      @import url(http://fonts.googleapis.com/css?family=News+Cycle);
+    </style>
+
+    <%= stylesheet_link_tag "application" %>
+
+    <%#
+    <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Zeyada' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Marvel:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Abel|PT+Sans+Narrow|News+Cycle|Antic|Metrophobic|Signika+Negative|Muli' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+    %>
+
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+
+    <style>
+      /* NOTE: set to 'display: none; ' if sign_up is disabled */
+      a[href='/users/sign_up']{ display: inline; }
+
+    </style>
+  </head>
+
+<body>
+  <!-- used when the need for sign in arises during an ajax call -->
+  <a style="display: none; " id="sign-in" href="/users/sign_in">Sign in</a>
+  <div id="frame">
+    <div id="canvas">
+      <div id="header">
+        <div class="top-bar"></div>
+        <div class="log-out-profile-button">
+          <ul class="menu">
+            <li class="first"><a rel="nofollow" data-method="delete" href="/users/sign_out">Log-out</a></li>
+            <li><a href="javascript:void(0);">Profile</a></li>
+          </ul>
+          <div class="who-am-i">Welcome, <span class="user-id">dcvezzani@gmail.com</span></div>
+        </div>
+      </div>
+      <div id="body">
+        <div id="left">
+          <div class="xeasy-browse" id="logo">
+            <a style="display: none; " href="/plan_participant"></a>
+            <div class="logo-graphic corporate first">
+              {My 401K Made Easy Logo}
+              <div class="ribbon-shadow"></div>
+            </div>
+            <div class="logo-graphic sponsor"></div>
+          </div>
+
+          <div id="left-side-menu">
+            <% if content_for?(:side_menu) %>
+              <%= yield(:side_menu) %>
+
+            <% else %>
+              <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+              </ul>
+            <% end %>
+          </div> <!-- #left-side-menu -->
+
+        </div>
+        <div id="center-right">
+          <div id="header-body">
+            <div id="header-instructions">
+              Hover over the buttons to get STARTED.
+            </div>
+            <div id="header-navigation">
+
+            <% if content_for?(:top_nav_menu) %>
+              <%= yield(:top_nav_menu) %>
+
+            <% else %>
+              <ul class="inline-block">
+                <li class="button easy-browse button-about-plan first"><a href="/plan_participant/about_plan">XX About Plan</a></li>
+                <li class="button easy-browse button-manage-account"><a href="/plan_participant/manage_account">Manage Account</a></li>
+                <li class="button easy-browse button-helpful-resources"><a href="/plan_participant/helpful_resources">Helpful Resources</a></li>
+                <li class="button easy-browse button-enroll"><a href="/plan_participant/enroll">Enroll</a></li>
+                <li class="button easy-browse button-special-offers"><a href="/plan_participant/special_offers">Special Offers</a></li>
+              </ul>
+
+            <% end %>
+              
+          </div> <!-- #header-navigation -->
+          </div>
+          <div id="mid-section">
+            <div id="banner"></div>
+
+            <h2><%= yield(:title) if show_title? %></h2>
+
+            <div id="carousel" style="display: none; ">
+              <div class="arrow-button left"></div>
+              <img src="/assets/My401KMadeEasy/carousel-ad.png">
+              <div class="arrow-button right"></div>
+            </div>
+
+            <div class="" id="content">
+              <%= yield %>
+            </div> <!-- #content -->
+          </div>
+          <div class="page-with-shadows"></div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="social-media">
+          <div class="icon-social-media first icon-social-media-twitter"></div>
+          <div class="icon-social-media icon-social-media-rss-feed"></div>
+          <div class="icon-social-media icon-social-media-facebook"></div>
+        </div>
+        <ul class="menu">
+          <li class="first"><a href="javascript: void(0);">Feedback &amp; Questions</a></li>
+          <li><a href="javascript: void(0);">Contacts</a></li>
+          <li><a href="javascript: void(0);">Terms of Service</a></li>
+          <li><a href="javascript: void(0);">Privacy Policy</a></li>
+          <li><a href="javascript: void(0);">Refer</a></li>
+        </ul>
+        <div class="powered-by">Powered by My 401k Made Easy</div>
+        <div class="bottom-bar"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

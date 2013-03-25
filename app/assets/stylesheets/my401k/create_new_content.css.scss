@@ -1,0 +1,51 @@
+// Place all the styles related to the My401k::CreateNewContent controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ____________________SECTION CSS_____________________ */
+
+
+.mainSectionArticle {
+  
+}
+
+.mainSectionTiles {
+  border: 1px solid black;
+  width: 250px;
+}
+
+.mainSectionTile {
+  height: 100px;
+  width: 100px;
+  background-color: #AAA;
+  border: 1px solid black;
+}
+
+.Small {
+  width: 120px;
+}
+
+/*__________________________LAYOUT CSS______________________*/
+
+.layoutTile {
+  height: 200px;
+  width: 150px;
+  background-color: #AAA;
+}
+
+
+/*______________________PREVIEW TILE____________________*/
+
+.tilePreview {
+  position: relative;
+}
+
+.tilePreviewTile {
+  
+}
+
+.tilePreviewIcon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

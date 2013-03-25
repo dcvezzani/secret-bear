@@ -1,0 +1,79 @@
+/*
+overrides the style that comes with JQuery UI to create a generic look and feel
+<div class="demo-jqui"...
+
+body .ui-widget
+this is used because JQuery creates elements on the fly, children of <body> and
+there's no practical way of using a namespace to allow JQuery UI and 'generic' to co-exist
+
+actually, perhaps one can simply include 'demo-jqui' in the list of classes for <body>...
+I guess that will have to be implemented later on
+
+TODO: remove 'body .ui-widget' and set 'deom-jqui' in the appropriate <body>
+*/
+
+.demo-jqui .tabs-border-bottom, 
+.content .tabs-border-bottom {
+  width: 95%; 
+}
+
+/*
+.demo-jqui .tabs-border-bottom, 
+.content .tabs-border-bottom {
+  background-color: #535353;
+  border: 0 none;
+  height: 8px;
+  width: 700px;
+  width: 95%; 
+}
+
+.demo-jqui .ui-corner-top, 
+.demo-jqui .ui-corner-all, 
+.content .ui-corner-top, 
+.content .ui-corner-all{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.demo-jqui .ui-widget-content, 
+.content .ui-widget-content{
+  background: 0;
+  border: 0;
+  color: #333333;
+}
+
+.demo-jqui .ui-widget-header, 
+.content .ui-widget-header{
+  background: 0;
+  border: 0;
+}
+
+body .ui-widget, 
+.demo-jqui .ui-widget, 
+.content .ui-widget{
+  font-family: inherit;
+}
+
+.demo-jqui .ui-state-default, .demo-jqui .ui-widget-content .ui-state-default, .demo-jqui .ui-widget-header .ui-state-default, 
+.content .ui-state-default, .content .ui-widget-content .ui-state-default, .content .ui-widget-header .ui-state-default{
+  background: none repeat scroll 0 0 white;
+}
+
+.demo-jqui .ui-state-default a, .demo-jqui .ui-state-default a:link, .demo-jqui .ui-state-default a:visited, 
+.content .ui-state-default a, .content .ui-state-default a:link, .content .ui-state-default a:visited{
+  color: #535353;
+}
+
+.demo-jqui .ui-state-active, .demo-jqui .ui-widget-content .ui-state-active, .demo-jqui .ui-widget-header .ui-state-active, 
+.content .ui-state-active, .content .ui-widget-content .ui-state-active, .content .ui-widget-header .ui-state-active{
+  background: none repeat scroll 0 0 #535353;
+}
+
+.demo-jqui .ui-state-active a, .demo-jqui .ui-state-active a:link, .demo-jqui .ui-state-active a:visited, 
+.content .ui-state-active a, .content .ui-state-active a:link, .content .ui-state-active a:visited{
+  color: white;
+}
+
+*/

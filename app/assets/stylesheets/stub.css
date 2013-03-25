@@ -1,0 +1,67 @@
+  .content_pages_form{
+  }
+  .content_pages_form textarea{
+    width: 100%;
+    height: 3em;
+  }
+  .content_pages_form textarea.detailed-text{
+    width: 100%;
+    height: 14em;
+  }
+
+.content_pages_form textarea.detailed-text {
+  height: 14em;
+  width: 99%;
+}
+
+  .tile-preview{
+    border: 1px solid;
+    float: right; 
+  }
+  .tile-preview .caption{
+    text-align: center;
+    border-top: 1px solid;
+  }
+
+  .sample{
+    background: url('/assets/stub/tile.png');
+    width: 165px;
+    height: 190px;
+  }
+  .sample.featured{
+    background: url('/assets/stub/tile-featured.png');
+   }
+
+.edit-tile .tile-controls textarea{
+  width: 100%;
+}
+
+.section-main {
+  float: left;
+  margin-bottom: 2em;
+  width: 99%;
+}
+
+  .section-group .stub{
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 1em 0;
+  }
+
+
+.edit-tile .tile-controls{
+  width: 48%;
+  float: left; 
+}
+
+#content_summary .highlight{
+  margin-top: 16px;
+}
+
+.highlight.left{
+  float: left; 
+}
+.highlight.right{
+  float: right; 
+}
+

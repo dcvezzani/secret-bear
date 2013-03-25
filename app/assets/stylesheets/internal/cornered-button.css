@@ -1,0 +1,96 @@
+.cornered-button {
+  background-color: #0071AD;
+  height: 65px;
+  height: 36px;
+  height: auto;
+  left: -16px; /* to allot for shifting corners 16px to the right; avoid the overflow scroll bars*/
+  overflow: visible;
+  position: relative;
+  line-height: 1;
+}
+
+
+.cornered-button:hover{
+  cursor: pointer;
+}
+
+.cornered-button-cover {
+  background-color: white;
+  opacity: 0.5;
+  filter: alpha(opacity = 50);
+  position: absolute;
+  top: 0;
+  z-index: 30;
+}
+
+.xcornered-button .cornered-button-title {
+  color: white;
+  font-size: 13pt;
+  padding: 0 0.5em;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 20;
+  top: -3px; 
+}
+.cornered-button .cornered-button-title {
+  color: white;
+  font-size: 13pt;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  z-index: 20;
+  float: left; 
+  height: 32px;
+}
+.cornered-button .cornered-button-title p {
+  margin: 0;
+  padding: 7px 0;
+}
+
+
+.cornered-button .cornered-button-border-horizontal{
+  position: relative; 
+  height: 7px;
+  margin: 0;
+  padding: 0;
+}
+.cornered-button .cornered-button-border{
+  position: relative; 
+  height: 7px;
+  margin: 0;
+  padding: 0;
+  width: 2px;
+  float: left; 
+}
+
+.cornered-button .cornered-button-corner{
+    background: url('/assets/My401KMadeEasy/button-corners.png') no-repeat 0 0 transparent;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  z-index: 10;
+}
+
+.cornered-button .cornered-button-corner-top-left {
+  background-position: -16px -16px;
+  left: -16px;
+  top: 0;
+}
+
+.cornered-button .cornered-button-corner-top-right{
+  background-position: 0 -16px;
+  right: -16px;
+  top: 0;
+}
+.cornered-button .cornered-button-corner-bottom-left{
+  background-position: -16px 0;
+  left: -16px;
+  top: 16px;
+}
+.cornered-button .cornered-button-corner-bottom-right{
+  right: -16px;
+  bottom: 0;
+  top: 16px;
+}
+

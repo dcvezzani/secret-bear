@@ -1,0 +1,45 @@
+.sponsor {
+  float: left;
+  height: 152px;
+  margin-bottom: 1em;
+  margin-left: 0.2em;
+  width: 149px;
+}
+
+.sponsor.first{
+  margin-left: 0;
+}
+.sponsor .empty-circle{
+  position: relative; left: 102px; top: 66px;
+}
+
+.sponsor .empty-circle{
+  position: relative;
+  cursor: pointer;
+}
+
+.sponsor .empty-circle .icon{
+  position: absolute;
+  left: 7px;
+  top: 8px;
+}
+
+.sponsor-tiles{
+  float: left; 
+  width: 95%;
+  width: 100%;
+}
+
+.sponsor .tile-info p{
+  padding: 0; 
+  margin: 0; 
+}
+
+.sponsor.read-only .logo-sponsor .empty-circle, 
+.sponsor.disabled .logo-sponsor .empty-circle{
+  display: none; 
+}
+
+.sponsor.disabled .tile-info{
+  display: none; 
+}

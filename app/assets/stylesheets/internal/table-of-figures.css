@@ -1,0 +1,37 @@
+table.figures{
+  width: 650px; 
+  width: auto;
+  border: 1px solid black;
+  border: 0;
+}
+table.figures tr td{
+  padding: 0 0 0 1em;
+}
+table.figures td.value{
+  font-weight: bold;
+}
+table.figures tr.total td{
+  font-weight: bold;
+  font-size: larger;
+}
+table.figures tr.total td.value{
+  border-top: 2px solid black;
+}
+table.figures td.value, 
+table.figures td.label{
+  text-align: right;
+}
+table.figures td.value{
+  padding-left: 2em;
+}
+table.figures td.operator{
+  width: 1em;
+}
+table.figures td.operator.add:before{
+  content: "+ ";
+}
+table.figures tr.first td.operator:before, 
+table.figures tr.total td.operator:before{
+  content: "";
+}
+

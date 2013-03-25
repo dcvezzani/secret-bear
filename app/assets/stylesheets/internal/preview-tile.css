@@ -1,0 +1,27 @@
+  #preview-tile-content{
+    width: 700px;
+    height: 585px;
+  }
+
+  .preview.data{
+    width: 100%;
+    position: relative; 
+    float: left; 
+    clear: both;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #535353;
+  }
+  .preview.tile{
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+  .preview.terms-and-conditions p.first{
+    margin-top: 0; 
+    padding-top: 0; 
+  }
+  .preview.terms-and-conditions{
+    width: auto;
+    min-height: 170px;
+  }
+

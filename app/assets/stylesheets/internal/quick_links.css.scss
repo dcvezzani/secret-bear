@@ -1,0 +1,41 @@
+#communications .quick-links{
+  div.body {
+    background: none; 
+    padding: 0;
+    margin: 0;
+    top: 5em;
+    margin-bottom: 6.5em;
+    height: auto;
+  }
+
+  div.body img {
+    float: left;
+    padding-left: 11px;
+    padding-right: 1.5em;
+    padding-top: 10px;
+    position: relative;
+  }
+
+  div.body .entry h3{
+    padding: 0;
+    margin: 0;
+    padding-top: .3em;
+  }
+
+  div.body .entry p{
+    padding: 0;
+    margin: 0;
+    padding-top: .3em;
+    padding-right: .3em;
+    line-height: 11px;
+  }
+
+  div.body .entry{
+    background: url('/assets/My401KMadeEasy/submit-feedback-grey-bar.png') no-repeat left top;
+    width:298px; height:70px;
+    position: relative; 
+    left: -3px;
+    padding-right: .3em;
+    margin-top: 5px;
+  }
+}

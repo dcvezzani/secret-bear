@@ -1,0 +1,141 @@
+/*
+  <div class="tile-row">
+    <div class="tile featured">
+      <div class="head">
+        <div class="graphic icon-sphere"></div>
+        <div class="title"></div>
+      </div>
+      <div class="body">
+        <div class="content"></div>
+        <div class="action"></div>
+      </div>
+    </div>
+  </div>
+*/
+
+
+div.tile-row{
+  &{
+    margin-bottom: 1em;
+    height: 200px;
+    clear: both; 
+    position: relative; 
+    left: 2px
+  }
+
+  .tile{
+    background: url('/assets/My401KMadeEasy/blue-tile-carved.png') no-repeat left top;
+    background: url('/assets/My401KMadeEasy/blue-tile.png') no-repeat left top;
+    width:166px; height:200px;
+    width:159px; height:190px;
+    float: left; 
+    margin-left: .6em;
+    position: relative; 
+  }
+  .tile.featured{
+    background: url('/assets/My401KMadeEasy/red-tile.png') no-repeat left top;
+    height:193px;
+  }
+
+  .tile.first{
+    margin-left: 0;
+  }
+
+  .line-break{
+    background: url('/assets/My401KMadeEasy/line-on-blue-tile.png') no-repeat left top;
+    width:164px; height:3px;
+    position: absolute;
+    left: 3px;
+    top: 5em;
+  }
+
+  .action{
+    background: url('/assets/My401KMadeEasy/blue-button-for-tile.png') no-repeat left top;
+    width:73px; height:24px;
+    position: absolute;
+    bottom: 15px;
+    bottom: 8px;
+    left: 10px;
+    text-align: center;
+    cursor: pointer; 
+  }
+
+  .featured{
+    &{
+      color: white;
+    }
+    .line-break{
+      background: url('/assets/My401KMadeEasy/bar-on-red-tile.png') no-repeat left top;
+      width:164px; height:3px;
+      left: 0;
+    }
+    .action{
+      background: url('/assets/My401KMadeEasy/red-button-for-tile.png') no-repeat left top;
+    }
+  }
+
+  .title, 
+  .title p{
+    font-size: 14pt;
+    left: 50px;
+    overflow: hidden;
+    position: absolute;
+    width: 109px;
+    padding: 5px 0;
+  }
+
+  .title p{
+    border: 0 none;
+    left: 0;
+    margin: 0;
+    padding: .2em 0;
+    position: relative;
+  }
+
+  .body p {
+    border: 0 none;
+    line-height: 12px;
+    margin: 0.4em 0;
+    padding: 0;
+    position: relative;
+    top: -9px;
+  }
+  
+
+  .content {
+    border: 0 none;
+    height: 69px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 5em;
+    line-height: 11px;
+    width: 84%;
+  }
+
+  .graphic{
+    position: absolute;
+    top: 7px;
+    left: -5px;
+    z-index: 10;
+  }
+
+  .icon-sphere{
+    background: url('/assets/My401KMadeEasy/log-in-sphere-logo.png') no-repeat left top;
+    width:46px; height:52px;
+  }
+  .icon-sponsor{
+    background: url('/assets/My401KMadeEasy/sponsor-logo.png') no-repeat left top;
+    width:40px; height:55px;
+  }
+  .icon-forms{
+    background: url('/assets/My401KMadeEasy/forms-logo.png') no-repeat left top;
+    width:57px; height:55px;
+  }
+
+
+  
+
+  
+}
+

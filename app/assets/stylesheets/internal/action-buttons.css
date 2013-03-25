@@ -1,0 +1,12 @@
+.action-buttons{
+  float: right;
+}
+
+.action-buttons .cornered-button{
+  float: left;
+  margin-left: 40px;
+}
+.action-buttons .cornered-button.first{
+  margin-left: 0;
+}
+

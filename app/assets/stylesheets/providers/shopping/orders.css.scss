@@ -1,0 +1,21 @@
+// Place all the styles related to the Shopping::Orders controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#new_shopping_order table{
+  width: 47%;
+}
+
+#confirmation-contact-info, #confirmation-finance{
+  float: left;
+  margin-right: 2em;
+}
+
+#hero .medium.green.button{
+  float: left; 
+  clear: both; 
+}
+
+tr.grand-total td{
+  font-size: 14pt;
+}

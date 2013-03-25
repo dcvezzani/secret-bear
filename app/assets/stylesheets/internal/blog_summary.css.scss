@@ -1,0 +1,119 @@
+#communications{ 
+
+  div.communication-item{
+    height: auto;
+  }
+  div.communication-item.first{
+    margin-top: 0;
+  }
+
+  div.blog-summary{
+    font-size: 10pt;
+    text-align: left;
+    color: black;
+    position: relative; 
+    width:296px; height:411px; /* height: 355(h:My401KMadeEasy/blog-outline-grey-border-shorter-355.png) + 56(h:My401KMadeEasy/red-button-plan-blog) */
+    height: 390px; /* div.head overlaps div.body by a little */
+  }
+  div.head {
+    background: url('/demo/blog-w-empty-header.png') no-repeat left top;
+    width:217px; height:321px;
+    background: url('/assets/My401KMadeEasy/red-button-plan-blog.png') no-repeat left top;
+    width:308px; height:321px;
+    width:296px; height:456px;
+    width:280px; height:411px; /* width: 296 - 16(padding-left), height: 355(h:My401KMadeEasy/blog-outline-grey-border-shorter-355.png) + 56(h:My401KMadeEasy/red-button-plan-blog) */
+    width: 280px; height: 56px;
+    color: white;
+    position: absolute; 
+    left: 0;
+    font-weight: bold;
+    padding-left: 16px;
+    z-index: 10;
+  }
+
+  div.body {
+    background: url("/assets/My401KMadeEasy/blog-outline-grey-border-shorter-355.png") no-repeat scroll left top transparent;
+    height: 331px;
+    left: 0;
+    padding: 25px 8px 0;
+    position: relative;
+    top: 37px;
+    width: 280px;
+  }
+
+  div.blog-summary .body .canvas{
+    overflow: hidden;
+    height: 97%;
+    overflow: hidden;
+  }
+  
+  h2 {
+    font-size: 16pt;
+    left: 0;
+    padding-left: 16px;
+    position: absolute;
+    color: white;
+  }
+  ul.menu {
+    color: white;
+    position: absolute;
+    right: 12px; 
+    top: 36px;
+  }
+  ul.menu a:hover{
+    text-decoration: underline;
+  }
+  ul.menu a{
+    color: white;
+    text-decoration: none;
+  }
+  ul.menu li{
+    font-size: 8pt;
+  }
+  ul.menu li.first:before{
+    content: "";
+  }
+  ul.menu li:before{
+    content: " | ";
+  }
+
+  .entry{
+    margin-top: 15px;
+    padding-bottom: 1em 0;
+    border: 1px solid transparent;
+    cursor: pointer; 
+  }
+
+  .entry.first{
+    margin-top: 0;
+  }
+
+  .entry .title{
+    margin-top: 0;
+  }
+
+  .entry img{
+    float: right; 
+  }
+
+  .entry-div{
+    background: url('/assets/My401KMadeEasy/blog-divide.png') no-repeat left top;
+    width:280px; height:2px;
+  }
+
+}
+
+#blog-entry-sample{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  border: 0;
+  width:58px; height:71px; top:68px; right:15px; bottom:180px; left:142px; position:absolute; z-index:auto;
+}
+#blog-entry-sample a{
+  display: none; 
+}
+

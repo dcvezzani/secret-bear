@@ -1,0 +1,88 @@
+.tile-info{
+  position: relative; 
+  width: 136px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.tile-info .tile-bars{
+  height: 23px;
+  position: relative; 
+}
+
+.tile-info .tile-bar{
+  position: absolute;
+}
+.tile-info .tile-bar.required-modules{
+  left: 0;
+}
+.tile-info .tile-bar.sponsor-credit{
+  left: 25px;
+}
+.tile-info .tile-bar.time-span{
+  left: 50px;
+}
+
+.tile-info .sponsorship-expiration{
+  clear: both; 
+  text-align: center; 
+  position: relative;
+}
+
+.tile-info .tile-gray-bar p{
+  color: white;
+}
+.tile-info .tile-gray-bar.required-modules p{
+  position: absolute;
+  left: 8px;
+  top: 2px;
+  top: 3px;
+}
+.tile-info .tile-gray-bar.time-span p{
+  position: absolute;
+  right: 8px;
+  top: 2px;
+  top: 3px;
+}
+.tile-info .tile-white-bar.sponsor-credit p{
+  left: 12px;
+  top: 2px;
+  top: 3px;
+  position: absolute;
+}
+
+
+.tile-info.no-left, 
+.tile-info.no-right{
+  width: 111px;
+}
+
+.tile-info.no-left .tile-bar.required-modules{
+  display: none; 
+}
+.tile-info.no-left .tile-bar.sponsor-credit{
+  left: 0
+}
+.tile-info.no-left .tile-bar.time-span{
+  left: 25px;
+}
+
+.tile-info.no-right .tile-bar.required-modules{
+  left: 0
+}
+.tile-info.no-right .tile-bar.sponsor-credit{
+  left: 25px;
+}
+.tile-info.no-right .tile-bar.time-span{
+  display: none; 
+}
+
+.tile-info.no-left.no-right{
+  width: 86px;
+}
+
+.tile-info.no-left.no-right .tile-bar.tile-white-bar.sponsor-credit{
+  left: 0;
+}
+

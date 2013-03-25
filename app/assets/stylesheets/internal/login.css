@@ -1,0 +1,64 @@
+/*
+#login-profile {
+  font-size: 10pt;
+  height: 18px;
+  position: absolute;
+  top: -4px;
+  width: 1024px;
+  z-index: 30;
+  text-align: right; 
+}
+
+#login-profile, 
+#login-profile a{
+  color: white; 
+  text-decoration: none; 
+}
+*/
+
+.who-am-i {
+  position: absolute;
+  right: 105px;
+  text-align: right;
+  top: 7px;
+  width: 337px;
+}
+
+div.log-out-profile-button {
+  background: url("/assets/My401KMadeEasy/log-out-profile-button.png") no-repeat scroll left top transparent;
+  width: 98px;
+  height: 31px;
+  position: absolute; 
+  right: 1em;
+  z-index: 10;
+  top: 13px;
+}
+
+div.log-out-profile-button ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 0 0 9px;
+  position: relative;
+  top: 7px;
+}
+
+div.log-out-profile-button ul, div.log-out-profile-button ul a {
+  color: #535353;
+  font-size: 8pt;
+  text-decoration: none;
+}
+
+div.log-out-profile-button ul a:hover{
+  text-decoration: underline; 
+}
+div.log-out-profile-button ul li {
+  border-left: 1px solid;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+div.log-out-profile-button ul li.first {
+  border-left: 0 none;
+  padding: 0 1px;
+}
+

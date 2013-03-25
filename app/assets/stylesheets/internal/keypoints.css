@@ -1,0 +1,12 @@
+ul.keypoints {
+  display: block;
+  float: left;
+  left: -26px;
+  position: relative;
+  width: 33%;
+}
+
+ul.keypoints li {
+  margin-bottom: 1em;
+}
+

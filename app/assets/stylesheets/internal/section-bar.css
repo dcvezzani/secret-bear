@@ -1,0 +1,186 @@
+div.section-bar{
+  background: url('/assets/My401KMadeEasy/featured-content-bar.png') no-repeat left top;
+  width:660px; height:35px;
+  width:691px; height:46px;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  color: #535353;
+  position: relative; 
+  clear: both; 
+  width:648px; height:44px; 
+}
+div.xtabs div.section-bar{
+  padding: 16px 0 0 0;
+
+  background: url('/assets/My401KMadeEasy/featured-content-bar-small.png') no-repeat left top;
+  width:660px; height:35px;
+  width:691px; height:46px;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+  padding: .6em 0 0 1em; 
+  color: black;
+  color: #535353;
+  position: relative; 
+  clear: both; 
+  width:628px; height:44px; 
+}
+
+div.section-bar-side{
+  width:17px; height:44px;
+  position: absolute;
+  left: -17px;
+  top: 0;
+}
+
+div.section-bar-side.left{
+  background: url('/assets/My401KMadeEasy/featured-content-bar-left.png') no-repeat left top;
+}
+div.section-bar-side.right{
+  background: url('/assets/My401KMadeEasy/featured-content-bar-right.png') no-repeat left top;
+  left: auto;
+  right: -17px;
+}
+div.xsection-bar{
+  background: url('/assets/My401KMadeEasy/featured-content-bar-slice.png') repeat-x left top;
+  width:628px; height:44px; 
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+  padding: .6em 0 0 1em; 
+  color: black;
+  color: #535353;
+  position: relative; 
+  clear: both; 
+  width:594px; height:44px; 
+  width:611px; height:44px; 
+  width: 92%;
+  left: 17px;
+}
+
+div.section-bar {
+  background: url("/assets/My401KMadeEasy/featured-content-bar-slice.png") repeat-x scroll left top transparent;
+  clear: both;
+  color: #535353;
+  font-size: 14pt;
+  font-weight: bold;
+  height: 44px;
+  left: 17px;
+  padding: 0.6em 0 0;
+  position: relative;
+  text-align: left;
+  width: 95%;
+  left: 16px;
+}
+
+div.column div.section-bar{
+  width: 85%;
+}
+
+
+/*
+Due to the padding on the front, the width is pushed out to the right by about 18px.  To achieve the desired
+layout, we take 18px off the actual width of the section bar.  So we declare a width of 589px instead of 607px.
+*/
+div.xtabs div.section-bar {
+  background: url("/assets/My401KMadeEasy/featured-content-bar-small.png") no-repeat scroll left top transparent;
+  clear: both;
+  color: #535353;
+  font-size: 14pt;
+  font-weight: bold;
+  height: 44px;
+  padding: 0.6em 0 0 1em;
+  position: relative;
+  text-align: left;
+  width: 589px;
+}
+
+div.section-bar div.bar-action.search{
+  background: url('/assets/My401KMadeEasy/search-bar.png') no-repeat left top;
+  width:203px; height:24px;
+  position: relative; 
+  right: 0;
+}
+div.section-bar div.bar-action.search div.magnifying-glass {
+  background: url("/assets/My401KMadeEasy/search-icon.png") no-repeat scroll left top transparent;
+  height: 17px;
+  position: absolute;
+  right: 9px;
+  top: 4px;
+  width: 16px;
+}
+
+
+div.section-bar div.bar-actions{
+  float: right;
+  position: relative;
+  right: 7px;
+  right: 59px;
+  right: 11px;
+  right: -6px;
+  top: 4px;
+  top: -17px;
+  top: 0;
+}
+
+div.section-bar p.title {
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 6px;
+  top: 0;
+}
+
+div.section-bar div.bar-title, 
+div.section-bar div.bar-action{
+  position: relative; 
+  float: left;
+}
+div.section-bar div.bar-action{
+  top: 0;
+  margin-left: 10px;
+}
+/*
+div.tabs div.section-bar div.bar-actions {
+  right: 29px;
+  right: 13px;
+}
+*/
+div.section-bar div.bar-actions div.bar-action{
+  top: -5px;
+  top: 0;
+}
+
+div.section-bar div.bar-action.first{
+  margin-left: 0px;
+}
+
+div.section-bar div.bar-action.add{
+  background: url('/demo/plus.png') no-repeat left top;
+  width:24px; height:24px;
+}
+
+div.section-bar div.bar-action.switch-on-off, 
+div.section-bar div.bar-action.switch-on{
+  background: url('/demo/switch-on-off.png') no-repeat left top;
+  width:118px; height:24px;
+}
+
+div.section-bar div.bar-action.switch-off{
+  background: url('/demo/switch-on-xoff.png') no-repeat left top;
+  width:118px; height:24px;
+}
+
+div.section-bar div.bar-action.icon-help{
+  background: url('/demo/icon-help.png') no-repeat left top;
+  width:24px; height:24px;
+}
+
+div.section-bar div.bar-action.total-value{
+  background: url('/demo/total-value.png') no-repeat left top;
+  width:161px; height:23px;
+}
+
