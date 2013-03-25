@@ -12,8 +12,8 @@
  *= require_tree ./internal
  *= require ../bootstrap/css/bootstrap
  *= require ../bootstrap/css/bootstrap-responsive
- *= require ../overcast/jquery-ui-1.8.18.custom
- *= require ../bootstrap-wizard/prettify
+ *= require ../twitboot-wizard/prettify
+ *= require ../jquery-ui-1.10.2.custom/css/overcast/jquery-ui-1.10.2.custom
  *= require_tree ./my401k
  *= require stub
  */
